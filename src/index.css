@@ -1,5 +1,7 @@
-@import "tailwindcss";
-@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant dark (&: where(.dark, .dark *));
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 main {
   max-width: 1280px;
